@@ -1,5 +1,8 @@
 import { useLocation } from "react-router-dom";
 import styles from "./Postcard.module.css";
+import Nik2 from "../../images/Nik2.jpg";
+import me2 from "../../images/me2.jpg";
+import family from "../../images/family.jpg";
 
 export const Postcard = () => {
   const location = useLocation();
@@ -21,21 +24,21 @@ export const Postcard = () => {
         <p>Приглашаем Вас разделить с нами радость этого незабываемого дня.</p>
         <time>27.09.2024 в 12:30</time>
         <div className={styles.imageWrapper}>
-          <img src="/public/images/Мы.JPG" alt="" className={styles.image} />
+          <img src={family} alt="мы" className={styles.image} />
         </div>
         <p>Там, где посеяна любовь, растёт счастье</p>
         <div className={styles.imageWrapper}>
           <img
-            src="/public/images/Никита2.jpg"
-            alt=""
+            src={Nik2}
+            alt="жених"
             className={`${styles.image} ${styles.photo}`}
           />
         </div>
         <p>Жених</p>
         <div className={styles.imageWrapper}>
           <img
-            src="/public/images/Я2.jpg"
-            alt=""
+            src={me2}
+            alt="невеста"
             className={`${styles.image} ${styles.photo}`}
           />
         </div>
