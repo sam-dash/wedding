@@ -2,7 +2,7 @@ import styles from "./Schedule.module.css";
 
 export const Schedule = () => {
   return (
-    <div className={styles.wrapper}>
+    <div id="schedule-section" className={styles.wrapper}>
       <section className={styles.schedule}>
         <h2 className={styles.title}>Свадебное расписание</h2>
         <table className={styles.table}>
