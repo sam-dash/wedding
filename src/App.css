@@ -1,0 +1,27 @@
+.container {
+  width: 375px;
+  height: 100vh;
+  margin: 0 auto;
+  border-radius: 50px;
+  border: 15px solid #000000d0;
+  box-shadow: 0px 20px 15px #33333379;
+  z-index: 5;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background-color: #302f2f;
+    border-radius: 50px;
+    z-index: 10;
+  }
+}
