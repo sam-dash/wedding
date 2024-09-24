@@ -1,6 +1,6 @@
 .container {
   width: 375px;
-  height: 100vh;
+  height: 100dvh;
   margin: 0 auto;
   border-radius: 50px;
   border: 15px solid #000000d0;
